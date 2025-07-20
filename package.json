@@ -14,7 +14,7 @@
     "themesberg"
   ],
   "license": "MIT",
-  "homepage": "https://demo.themesberg.com/volt-react-dashboard",
+  "homepage": "https://azizumar.github.io/volt-react-dashboard",
   "bugs": {
     "url": "https://github.com/themesberg/volt-react-dashboard/issues"
   },
@@ -33,6 +33,8 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "@themesberg/react-bootstrap": "^1.4.1",
+    "ajv": "^6.12.6",
+    "ajv-keywords": "^3.5.2",
     "bootstrap": "5.0.0-beta1",
     "chartist": "^0.11.4",
     "chartist-plugin-tooltips-updated": "^0.1.4",
@@ -46,7 +48,7 @@
     "react-live": "^2.2.3",
     "react-router-dom": "^5.2.0",
     "react-router-hash-link": "^2.3.1",
-    "react-scripts": "3.4.3",
+    "react-scripts": "^5.0.1",
     "react-transition-group": "^4.4.1",
     "sass": "^1.50.0",
     "simplebar-react": "^2.3.0"
@@ -74,5 +76,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
